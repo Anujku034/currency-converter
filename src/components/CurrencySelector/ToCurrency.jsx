@@ -52,7 +52,7 @@ function FromCurrency({
     <div className="relative flex-1">
 
       <label className="block text-gray-700 font-semibold mb-2">
-        From
+        To
       </label>
 
       <button
