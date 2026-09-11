@@ -1,16 +1,63 @@
-# React + Vite
+# 💱 Currency Converter
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive currency converter built using **React.js** and **Tailwind CSS**.  
+It allows users to select different currencies, enter an amount, and convert it using live exchange rates.
 
-Currently, two official plugins are available:
+## 🚀 Live Demo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+🔗 [Currency Converter](https://currency-converter-lemon-pi-80.vercel.app/)
 
-## React Compiler
+## 📸 Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🌍 Select from multiple currencies
+- 💰 Enter custom conversion amount
+- 🔄 Swap From and To currencies
+- 📊 Live exchange rates
+- 💵 Dynamic currency symbols
+- 📱 Responsive user interface
+- ⚡ Fast and interactive React UI
+- 🎨 Modern UI built with Tailwind CSS
 
-## Expanding the ESLint configuration
+## 🛠️ Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- **React.js**
+- **JavaScript**
+- **Tailwind CSS**
+- **Vite**
+- **REST APIs**
+- **Git & GitHub**
+- **Vercel**
+
+## 🔌 APIs Used
+
+### Exchange Rate API
+
+The application uses the Frankfurter API to fetch exchange rates.
+
+### Currency Data
+
+Open Exchange Rates is used to retrieve currency codes and currency names.
+
+### Country & Flag Data
+
+REST Countries is used to identify the country associated with a selected currency, and FlagCDN is used to display the corresponding flag.
+
+## 📂 Project Structure
+
+```text
+src/
+│
+├── components/
+│   ├── Header.jsx
+│   ├── AmountInput.jsx
+│   ├── Convert.jsx
+│   ├── Result.jsx
+│   │
+│   └── CurrencySelector/
+│       ├── FromCurrency.jsx
+│       ├── ToCurrency.jsx
+│       └── SwapComponents.jsx
+│
+├── App.jsx
+├── App.css
+└── index.css
