@@ -11,8 +11,9 @@ function Header() {
       />
 
 
-      <h1 className="text-4xl font-bold text-gray-900 mt-3">
-        Currency Converter
+      <h1 className="text-4xl font-bold  mt-3">
+        Currency <span className="text-sky-600">Convertor</span>
+        
       </h1>
 
 
